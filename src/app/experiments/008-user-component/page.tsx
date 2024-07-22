@@ -1,5 +1,5 @@
 import UserProfile from "@/components/user/UserProfile";
-import { user } from "@/data/user";
+import { user } from "@/components/user/user_data";
 
 function App() {
   return (
