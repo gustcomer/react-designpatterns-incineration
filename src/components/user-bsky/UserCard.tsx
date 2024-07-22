@@ -23,10 +23,10 @@ const UserCard: React.FC<UserCardProps> = ({ user: {username, profileImage, hand
           <p className="text-gray-400 text-sm">@{handle}</p>
         </div>
       </div>
-      <div className="mt-4">
-        <p><span className="font-bold">{followers}</span> followers</p>
-        <p><span className="font-bold">{following}</span> following</p>
-        <p><span className="font-bold">{posts}</span> posts</p>
+      <div className="mt-4 flex text-sm">
+        <p className=""><span className="font-bold">{followers}</span> followers</p>
+        <p className="ml-2"><span className="font-bold">{following}</span> following</p>
+        <p className="ml-2"><span className="font-bold">{posts}</span> posts</p>
       </div>
     </div>
   );
