@@ -19,6 +19,7 @@ export default function Home() {
       <h2 className="text-2xl">UI Components</h2>
       <p><Link href='/experiments/008-user-component'>User Component</Link> - Simple and generated with AI based on user data from JSONPlaceholder website.</p>
       <p><Link href='/experiments/009-user-card-from-bluesky'>User Card from Bluesky</Link> - User Card generated with AI based on the bluesky app.</p>
+      <p><Link href='/experiments/011-search-field'>Search Field</Link> - Simple Search Field taken from bluesky app.</p>
     </>
   );
 }
